@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bgcolor" bgcolor = "black">
+
+    <h1 style="color: blueviolet;"> the help of javascript we can change the attribute of element</h1>
+    
+    
+    <button type="button" onclick="document.getElementById('Img1').src='light on.jpg'; document.getElementById('bgcolor').style.backgroundColor='yellow';">
+        Turn Bulb ON
+    </button>
+    
+    <img src="bulb off.jpg" style="width: 200px" id="Img1">
+
+
+    <button type="button" onclick="document.getElementById('Img1').src='bulb off.jpg'; document.getElementById('bgcolor').style.backgroundColor='black';">
+        Turn Bulb OFF
+    </button> 
+
+    <script src="change_attribute.js"></script>
+    
+</body>
+</html>
+
+<!--What is event handling - onclick is used to trigger diffrent actions-->

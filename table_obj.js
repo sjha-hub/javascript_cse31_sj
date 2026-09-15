@@ -20,7 +20,7 @@ let student = [
         Cgpa: 7.8
     }  ,
      {
-        name: "dixit",
+        name: "darpan",
         city: "Delhi",
         Cgpa: 7.8
     }   

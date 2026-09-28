@@ -8,7 +8,7 @@ const PORT=3000;
 //1. method 
 app.get("/", (req , res)=>
     {
-    res.json({message:"Hello"});
+    res.json({message:"student list "});
     })
 app.listen(PORT,()=>{
     console.log(`app is running on port ${PORT}`);
